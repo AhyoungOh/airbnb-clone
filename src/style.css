@@ -1,0 +1,171 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    padding: 0 24px;
+}
+.box2 ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    list-style-type: none;
+    justify-content: flex-end;
+    position: relative;
+    align-items: center;
+    padding: 0px 8px 0px 0px;
+    width: 351px;
+}
+.hostbox{
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    width: auto;
+    touch-action: manipulation;
+    font-family: 14px;
+    line-height: 18px;
+    border: solid;
+    border-radius: 8px;
+    border-width: 1px;
+    padding: 7px 15px;
+    transition: box-shadow 0.2s;
+    border-color: rgb(34, 34, 34);
+    background: rgd(255, 255, 255);
+    color: rgb(34, 34, 34);
+}
+.button1{
+    padding: 5px;
+    border-radius: 50px;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 42px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    transition: box-shadow 0.2s;
+}
+.bar{
+    display: flex;
+    flex-direction: column;
+
+}
+.select-bar{
+    text-align: center;
+}
+.숙소{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    padding: 10px 12px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    color: #222222;
+}
+.체험{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    line-height: 20px ;
+    cursor: pointer ;
+    display: inline-block ;
+    font-weight: 400 ;
+    padding: 10px 12px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    color: #222222;
+}
+.온라인이벤트{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    padding: 10px 12px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    color: #222222;
+}
+.search-bar{
+    display:flex;
+    padding: 10px 12px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 32px;
+}
+.location{
+    flex: 1;
+    border: 1px solid transparent;
+    border-radius: 32px;
+    cursor: pointer;
+    text-align: left;
+    pointer-events: auto;
+}
+.location:hover{
+    background-color:rgb(223, 215, 215);
+    color: white;
+}
+.check-in{
+    flex:1;
+    border: 1px solid transparent;
+    border-radius: 32px;
+    cursor: pointer;
+    text-align: left;
+    pointer-events: auto;
+}
+.check-in:hover{
+    background-color:rgb(223, 215, 215);
+    color: white;
+}
+.check-out{
+    flex:1;
+    border: 1px solid transparent;
+    border-radius: 32px;
+    cursor: pointer;
+    text-align: left;
+    pointer-events: auto;
+}
+.check-out:hover{
+    background-color:rgb(223, 215, 215);
+    color: white;
+}
+.numberOfPPL{
+    flex:1;
+    border: 1px solid transparent;
+    border-radius: 32px;
+    cursor: pointer;
+    text-align: left;
+    pointer-events: auto;
+}
+.numberOfPPL:hover{
+    background-color:rgb(223, 215, 215);
+    color: white;
+}
+.search-button{
+    flex:1;
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: red;
+
+}
+.search-button:hover{
+    background-color: rgb(75, 73, 73);
+}
