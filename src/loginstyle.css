@@ -1,0 +1,13 @@
+.back{
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: white;
+    background-color: white;
+    position: absolute;
+    display: inline;
+    text-align: center;
+    width: 550px;
+    height: 600px;
+    top: 10%;
+    left: 30%;
+}
