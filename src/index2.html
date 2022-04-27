@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="red">Ablock</div>
+        <div class="blue">Bblock</div>
+        <div class="green">Cblock</div>
+    </div>
+    <script>
+        let sum=0;
+        for(i=0;i<=10;++i){
+            sum = sum + i;
+        }
+        console.log(sum);
+
+        const ablock = document.querySelector('.red');
+        const fn1 = (a, b) =>{
+            return a + b;
+        }
+        function fn2(){
+
+        }
+
+        ablock.addEventListener('click', () => {
+            /*call back function*/
+            alert("ablock clicked");
+        })
+        console.log(ablock);
+    </script>
+</body>
+</html>
